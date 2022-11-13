@@ -129,13 +129,13 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.DEEPSLATE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 23
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 3,
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": -10
   }
 }
