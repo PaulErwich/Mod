@@ -10,10 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.mod.block.TestBlockBlock;
+import net.mcreator.mod.block.RhodiumOreBlock;
 import net.mcreator.mod.ModMod;
 
 public class ModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ModMod.MODID);
-	public static final RegistryObject<Block> TEST_BLOCK = REGISTRY.register("test_block", () -> new TestBlockBlock());
+	public static final RegistryObject<Block> RHODIUM_ORE = REGISTRY.register("rhodium_ore", () -> new RhodiumOreBlock());
 }

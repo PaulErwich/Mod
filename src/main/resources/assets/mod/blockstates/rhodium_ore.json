@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "mod:block/test_block"
+      "model": "mod:block/rhodium_ore"
     }
   }
 }

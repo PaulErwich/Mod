@@ -3,7 +3,7 @@
   "pattern": [
     "012",
     "345",
-    "6 8"
+    "678"
   ],
   "key": {
     "0": {
@@ -26,6 +26,9 @@
     },
     "6": {
       "item": "minecraft:leather"
+    },
+    "7": {
+      "item": "mod:rhodiumingot"
     },
     "8": {
       "item": "minecraft:leather"

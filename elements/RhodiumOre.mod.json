@@ -2,12 +2,12 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "testtexture",
-    "textureTop": "testtexture",
-    "textureLeft": "testtexture",
-    "textureFront": "testtexture",
-    "textureRight": "testtexture",
-    "textureBack": "testtexture",
+    "texture": "rhodiumore",
+    "textureTop": "rhodiumore",
+    "textureLeft": "rhodiumore",
+    "textureFront": "rhodiumore",
+    "textureRight": "rhodiumore",
+    "textureBack": "rhodiumore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,22 +33,22 @@
         "subtract": false
       }
     ],
-    "name": "Test Block",
+    "name": "Rhodium Ore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "useLootTableForDrops": true,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -123,7 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -134,6 +136,6 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 23
   }
 }

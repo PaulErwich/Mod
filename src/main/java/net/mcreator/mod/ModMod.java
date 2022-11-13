@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mod.init.ModModMenus;
 import net.mcreator.mod.init.ModModItems;
+import net.mcreator.mod.init.ModModFeatures;
 import net.mcreator.mod.init.ModModBlocks;
 
 import java.util.function.Supplier;
@@ -52,6 +53,8 @@ public class ModMod {
 
 		ModModBlocks.REGISTRY.register(bus);
 		ModModItems.REGISTRY.register(bus);
+
+		ModModFeatures.REGISTRY.register(bus);
 
 		ModModMenus.REGISTRY.register(bus);
 

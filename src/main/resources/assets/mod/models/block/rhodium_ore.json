@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mod:blocks/rhodiumore",
+    "up": "mod:blocks/rhodiumore",
+    "north": "mod:blocks/rhodiumore",
+    "east": "mod:blocks/rhodiumore",
+    "south": "mod:blocks/rhodiumore",
+    "west": "mod:blocks/rhodiumore",
+    "particle": "mod:blocks/rhodiumore"
+  },
+  "render_type": "solid"
+}

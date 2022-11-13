@@ -1,5 +1,5 @@
 {
-  "parent": "mod:block/test_block",
+  "parent": "mod:block/rhodium_ore",
   "display": {
     "thirdperson": {
       "rotation": [

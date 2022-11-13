@@ -1,15 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "TestBlock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_block",
-      "path": "~/Blocks"
-    },
-    {
       "name": "Backpack",
       "type": "item",
       "sortid": 2,
@@ -35,28 +26,60 @@
       "locked_code": false,
       "registry_name": "backpackrecipe",
       "path": "~/Backbacks/Lether Backpack"
+    },
+    {
+      "name": "Rhodiumingot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhodiumingot",
+      "path": "~/Rhodium/Blocks and Ingots"
+    },
+    {
+      "name": "RhodiumOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhodium_ore",
+      "path": "~/Rhodium/Blocks and Ingots"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mod.test_block": "Test Block",
-      "item.mod.backpack": "Backpack"
+      "item.mod.backpack": "Backpack",
+      "item.mod.rhodiumingot": "Rhodiumingot",
+      "block.mod.rhodium_ore": "Rhodium Ore"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Blocks",
-        "children": []
-      },
-      {
         "name": "Backbacks",
         "children": [
           {
             "name": "Lether Backpack",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Rhodium",
+        "children": [
+          {
+            "name": "Blocks and Ingots",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Armour",
             "children": []
           }
         ]
