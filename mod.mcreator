@@ -8,13 +8,23 @@
       "locked_code": false,
       "registry_name": "test_block",
       "path": "~/Blocks"
+    },
+    {
+      "name": "TestBlock2",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block_2",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mod.test_block": "Test Block"
+      "block.mod.test_block": "Test Block",
+      "block.mod.test_block_2": "Test Block 2"
     }
   },
   "foldersRoot": {
