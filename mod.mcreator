@@ -8,13 +8,41 @@
       "locked_code": false,
       "registry_name": "test_block",
       "path": "~/Blocks"
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "path": "~/Backbacks/Lether Backpack"
+    },
+    {
+      "name": "Backpackgui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackgui",
+      "path": "~/Backbacks/Lether Backpack"
+    },
+    {
+      "name": "Backpackrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackrecipe",
+      "path": "~/Backbacks/Lether Backpack"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mod.test_block": "Test Block"
+      "block.mod.test_block": "Test Block",
+      "item.mod.backpack": "Backpack"
     }
   },
   "foldersRoot": {
@@ -23,6 +51,15 @@
       {
         "name": "Blocks",
         "children": []
+      },
+      {
+        "name": "Backbacks",
+        "children": [
+          {
+            "name": "Lether Backpack",
+            "children": []
+          }
+        ]
       }
     ]
   },
