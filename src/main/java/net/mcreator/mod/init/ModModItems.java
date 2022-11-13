@@ -18,7 +18,6 @@ import net.mcreator.mod.ModMod;
 public class ModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ModMod.MODID);
 	public static final RegistryObject<Item> TEST_BLOCK = block(ModModBlocks.TEST_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> TEST_BLOCK_2 = block(ModModBlocks.TEST_BLOCK_2, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
